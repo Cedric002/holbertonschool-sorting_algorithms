@@ -8,7 +8,7 @@
  * Return: sort in ascending order
  *
  */
-void bubble_sort(int* array, size_t size)
+void bubble_sort(int *array, size_t size)
 {
 	for (size_t i = 0; i < size - 1; i++)
 	{
