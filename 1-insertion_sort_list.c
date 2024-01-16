@@ -3,7 +3,7 @@
 /**
  * insertion_sort_list - function that sorts a doubly
  * linked list in ascending order
- * list: doubly linked list
+ * @list: doubly linked list
  *
  * Return: void
  */
