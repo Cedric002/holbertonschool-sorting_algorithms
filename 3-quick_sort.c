@@ -10,7 +10,7 @@
  * Return: the position of the pivot
 */
 
-int partition(int *array, size_t size, int start, int end)
+static int partition(int *array, size_t size, int start, int end)
 {
 	int pivot = array[end];
 	int i = (start - 1); /*variable positionned before*/
@@ -52,7 +52,7 @@ int partition(int *array, size_t size, int start, int end)
  * Return: void
  */
 
-void quick_sort_partionning(int *array, size_t size, int start, int end)
+static void quick_sort_partionning(int *array, size_t size, int start, int end)
 {
 	int pivot;
 
